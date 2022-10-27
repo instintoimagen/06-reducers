@@ -1,0 +1,195 @@
+{
+  "directores": [
+    {
+      "id": 1,
+      "nombre": "Woody Allen",
+      "peliculas": [
+        "Annie Hall",
+        "Match Point",
+        "A Roma con amor",
+        "Deconstruyendo a Harry"
+      ],
+      "fechanacimiento": "Dec 1, 1935",
+      "nacionalidad": "USA",
+      "foto": "./assets/woodyallen.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Martin Scorsese",
+      "peliculas": [
+        "Casino",
+        "Lobo de Wallstreet"
+      ],
+      "fechanacimiento": "Nov 17, 1942",
+      "nacionalidad": "USA",
+      "foto": "./assets/martinscorsesse.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Wes Anderson",
+      "peliculas": [
+        "El gran hotel Budapest",
+        "Los Tenenbaums",
+        "La Crónica Francesa"
+      ],
+      "fechanacimiento": "May 1, 1969",
+      "nacionalidad": "USA",
+      "foto": "./assets/wesanderson.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Quentin Tarantino",
+      "peliculas": [
+        "Pulp Fiction",
+        "Erase una vez en Hollywood",
+        "Perros de la calle",
+        "Los 8 más odiados"
+      ],
+      "fechanacimiento": "Mar 27, 1963",
+      "nacionalidad": "USA",
+      "foto": "./assets/quentintarantino.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Stanley Kubrick",
+      "peliculas": [
+        "The Shinning",
+        "2001, Odisea del espacio",
+        "La naranja mecánica"
+      ],
+      "fechanacimiento": "Jul 26, 1928",
+      "nacionalidad": "USA",
+      "foto": "./assets/stanleykubrick.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Christopher Nolan",
+      "peliculas": [
+        "Interstellar",
+        "Origen",
+        "Memento"
+      ],
+      "fechanacimiento": "Jul 30, 1970",
+      "nacionalidad": "UK",
+      "foto": "./assets/nolan.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Alfred Hitchcock",
+      "peliculas": [
+        "Psycho",
+        "Vertigo",
+        "The Birds",
+        "Rear Window"
+      ],
+      "fechanacimiento": "Aug 13, 1899",
+      "nacionalidad": "UK",
+      "foto": "./assets/hitchcock.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Pablo Trapero",
+      "peliculas": [
+        "Mundo Grua",
+        "Carancho",
+        "El Clan"
+      ],
+      "fechanacimiento": "Oct 4, 1971",
+      "nacionalidad": "Argentina",
+      "foto": "./assets/pablotrapero.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Damian Szifron",
+      "peliculas": [
+        "Relatos Salvajes"
+      ],
+      "fechanacimiento": "Jul 9, 1975",
+      "nacionalidad": "Argentina",
+      "foto": "./assets/szifron.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Jean-Pierre Jeunet",
+      "peliculas": [
+        "Amelie",
+        "Delicatessen",
+        "El extraordinario viaje de T.S. Spivet"
+      ],
+      "fechanacimiento": "Sep 3, 1953",
+      "nacionalidad": "France",
+      "foto": "./assets/jeunet.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Sergio Ortega",
+      "peliculas": [
+        "Duplos",
+        "Error"
+      ],
+      "fechanacimiento": "May 13, 1981",
+      "nacionalidad": "Argentina",
+      "foto": "./assets/ortega.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "Sofia Coppola",
+      "peliculas": [
+        "Perdidos en Tokio"
+      ],
+      "fechanacimiento": "May 14, 1971",
+      "nacionalidad": "USA",
+      "foto": "./assets/sofiacoppola.jpg"
+    },
+    {
+      "id": 13,
+      "nombre": "Lucrecia Martel",
+      "peliculas": [
+        "La Cienaga",
+        "Zama",
+        "La niña santa",
+        "La mujer rubia"
+      ],
+      "fechanacimiento": "1966-12-14",
+      "nacionalidad": "Argentina",
+      "foto": "./assets/martel.jpg"
+    }
+  ],
+  "actrices": [
+    {
+      "id": 1,
+      "nombre": "Emma Stone",
+      "fechanacimiento": "Nov 6, 1988"
+    },
+    {
+      "id": 2,
+      "nombre": "Scarlett Johansson",
+      "fechanacimiento": "Nov 22, 1984"
+    },
+    {
+      "id": 3,
+      "nombre": "Penélope Cruz",
+      "fechanacimiento": "Apr 28, 1974"
+    },
+    {
+      "id": 4,
+      "nombre": "Natalie Portman",
+      "fechanacimiento": "Jun 9, 1981"
+    },
+    {
+      "id": 5,
+      "nombre": "Winona Ryder",
+      "fechanacimiento": "Oct 29, 1971"
+    },
+    {
+      "id": 6,
+      "nombre": "Sharon Stone",
+      "fechanacimiento": "Mar 10, 1958"
+    },
+    {
+      "id": 7,
+      "nombre": "Christina Ricci",
+      "fechanacimiento": "FEb 12, 1980"
+    }
+  ]
+}

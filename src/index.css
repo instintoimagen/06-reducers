@@ -1,13 +1,133 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+html {
+  background-color: #112;
+  color: #dde;
+  overflow-x: hidden;
+}
+hr {
+  border: 1px dotted #446;
+  /* border-radius: 3px; */
+}
+.contador {
+  text-align: center;
+  margin: 1rem auto;
+  padding: 0.5rem 0 2rem;
+  width: 70vw;
+  min-width: 20rem;
+  background-color: #334;
+  border-radius: 0.2rem 2rem 0.2rem 2rem;
+  border: 1px dotted #888;
+}
+.contador button {
+  width: 2.5rem;
+  height: 1.7rem;
+  border-radius: 0 1rem 0 1rem;
+  border: none;
+  margin: 0 0.5rem;
+  background-color: rgb(31, 54, 128);
+  box-shadow: 5px 5px 7px 1px rgba(104, 104, 109, 0.637);
+}
+.contador button:hover {
+  background-color: rgb(20, 42, 117);
+  box-shadow: 3px 3px 5px 1px rgba(104, 104, 109, 0.637);
+}
+.contador button:active {
+  background-color: rgb(13, 25, 66);
+  box-shadow: 3px 3px 5px 1px rgba(104, 104, 109, 0.637);
+}
+
+/*  - - - cart - - -  */
+.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+.box,
+.box-cart {
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 2px 2px 1rem #446 inset;
+}
+.box-cart {
+  padding-bottom: 3rem;
+  font-size: small;
+}
+.prod-cart {
+  border: thin solid gray;
+  padding: 1rem;
+  border-radius: 15px 15px 0 0;
+  border: none;
+  background-color: #334;
+}
+.btn-azul {
+  border: none;
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.3rem;
+  box-shadow: 3px 2px 4px 1px rgba(104, 104, 109, 0.7);
+  font-weight: bold;
+}
+.btn-rojo {
+  border: none;
+  height: 1.7rem;
+  width: 1.7rem;
+  /* padding: 0.4rem 0.7rem; */
+  box-shadow: 3px 2px 4px 1px rgba(104, 104, 109, 0.7);
+  font-weight: bold;
+  border-radius: 100%;
+  font-size: x-small;
+  margin: 0 0.25rem;
+}
+.btn-azul {
+  color: rgb(208, 223, 73);
+  background-color: rgb(24, 57, 241);
+}
+.btn-rojo {
+  color: rgb(255, 255, 255);
+  background-color: rgb(248, 62, 37);
+}
+.btn-rojo:hover {
+  background-color: rgb(209, 60, 40);
+}
+.btn-azul:hover {
+  background-color: rgb(45, 71, 216);
+}
+.btn-rojo:active {
+  background-color: rgb(207, 24, 0);
+  box-shadow: 1px 1px 2px 1px rgba(104, 104, 109, 0.7);
+}
+.btn-azul:active {
+  background-color: rgb(23, 45, 172);
+  box-shadow: 1px 1px 2px 1px rgba(104, 104, 109, 0.7);
+}
+.div-cart-total {
+  text-align: right;
+  margin: 0.5rem 0 0.5rem 0;
+}
+.div-cart-total h2 {
+  color: #1a1;
+}
+.div-cart-total h2,
+.div-cart-total h3 {
+  margin: 0;
+}
+.div-total-btn {
+  position: absolute;
+  right: 2rem;
+}
+.div-total-btn button {
+  margin-left: 0.5rem;
 }
